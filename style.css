@@ -1,0 +1,100 @@
+/********** General Document Style *************/
+* {
+  font-family: "inter", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "inter", sans-serif;
+}
+
+/********** Top Navbar Style /**********/
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#top-navbar-container-id {
+  background-color: #1dc4ff;
+}
+
+#main-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1dc4ff;
+  width: 100%;
+  height: 2.5rem;
+  color: white;
+  max-width: 1280px;
+}
+
+#main-top-container a {
+  color: white;
+  text-decoration: none;
+}
+#secondary-left-container {
+  padding-left: 5rem;
+  font-size: 0.9em;
+}
+
+#secondary-right-container {
+  padding-right: 5rem;
+  font-size: 0.9em;
+}
+
+#secondary-left-container a,
+#secondary-right-container a {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+/********** Navbar Style /**********/
+
+#navbar-container {
+  background-color: #ffffff;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  background-color: #ffffff;
+  max-width: 1280px;
+}
+#navbar-logo-div {
+  padding-left: 5rem;
+  margin-right: 1rem;
+}
+
+#navbar-links-div a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 1.5em;
+  font-size: 1.5rem;
+}
+
+#navbar-button-div {
+  padding-right: 5rem;
+}
+
+#navbar-button-div button {
+  background-color: #4749cd;
+  border-radius: 5px;
+  border: none;
+  height: 3.5rem;
+  width: 18rem;
+}
+
+#navbar-button-div button a {
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+}
