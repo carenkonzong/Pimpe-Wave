@@ -98,3 +98,59 @@ body {
   font-weight: 200;
   text-decoration: none;
 }
+
+/********** Section1 Style **********/
+
+#section1-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+
+#content-left-container {
+  padding-left: 5rem;
+  font-size: 0.9em;
+}
+
+#content-right-container {
+  padding-right: 5rem;
+  font-size: 0.9em;
+}
+#content-container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-text-container {
+  width: 35rem;
+}
+
+#left-text-container h1 {
+  font-size: 5.4rem;
+}
+
+#left-text-container h2 {
+  font-size: 2rem;
+  font-weight: 350;
+}
+
+#left-text-container p {
+  margin: 0;
+  color: white;
+}
+
+#left-logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#section2 {
+  height: 800px;
+}
