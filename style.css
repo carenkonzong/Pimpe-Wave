@@ -1,10 +1,10 @@
 /********** General Document Style *************/
-* {
-  font-family: "inter", sans-serif;
-}
+
 html {
   font-size: 62.5%;
+  font-family: "inter", sans-serif;
 }
+
 body {
   padding: 0;
   margin: 0;
@@ -29,28 +29,21 @@ body {
   justify-content: space-between;
   background-color: #1dc4ff;
   width: 100%;
-  height: 2.5rem;
+  height: 3.5rem;
   color: white;
-  max-width: 1280px;
+  max-width: 1500px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 #main-top-container a {
   color: white;
   text-decoration: none;
 }
-#secondary-left-container {
-  padding-left: 5rem;
-  font-size: 0.9em;
-}
-
-#secondary-right-container {
-  padding-right: 5rem;
-  font-size: 0.9em;
-}
 
 #secondary-left-container a,
 #secondary-right-container a {
-  font-size: 1rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
 }
 
@@ -64,45 +57,40 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 5rem;
+  height: 7rem;
   align-items: center;
   background-color: #ffffff;
-  max-width: 1280px;
-}
-#navbar-logo-div {
-  padding-left: 5rem;
-  margin-right: 1rem;
+  max-width: 1500px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 #navbar-links-div a {
   color: #000000;
   text-decoration: none;
-  margin-right: 1.5em;
-  font-size: 1.5rem;
-}
-
-#navbar-button-div {
-  padding-right: 5rem;
+  margin-right: 3rem;
+  font-size: 2.3rem;
 }
 
 #navbar-button-div button {
+  font-size: 1.7rem;
+  font-weight: 250;
   background-color: #4749cd;
   border-radius: 5px;
   border: none;
-  height: 3.5rem;
-  width: 18rem;
+  height: 2.5em;
+  width: 13.5em;
 }
 
 #navbar-button-div button a {
   color: white;
-  font-weight: 200;
   text-decoration: none;
 }
 
-/********** Section1 Style **********/
+/********** Section 1 Style **********/
 
 #section1-container {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   background-image: url(images/background.png);
@@ -111,34 +99,33 @@ body {
   background-size: 100%;
 }
 
-#content-left-container {
-  padding-left: 5rem;
-  font-size: 0.9em;
-}
-
-#content-right-container {
-  padding-right: 5rem;
-  font-size: 0.9em;
-}
 #content-container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#left-text-container {
-  width: 35rem;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 #left-text-container h1 {
-  font-size: 5.4rem;
+  font-size: 8rem;
+  margin-bottom: 0.7rem;
 }
 
 #left-text-container h2 {
-  font-size: 2rem;
-  font-weight: 350;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 7rem;
+}
+
+#left-logo-container img {
+  width: 24rem;
+}
+
+#left-text-container h2 p {
+  margin-bottom: 0.6rem;
 }
 
 #left-text-container p {
@@ -151,6 +138,34 @@ body {
   justify-content: space-between;
 }
 
+/********** Section 2 Style **********/
 #section2 {
-  height: 800px;
+  position: absolute;
+  z-index: 2;
+  top: 105vh;
+  height: 17.5rem;
+  width: calc(100% - 12%);
+  max-width: 1500px;
+  border-radius: 2.5rem;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 8px #4d4d4d;
+}
+
+.top,
+.bottom {
+  text-align: center;
+}
+
+.top {
+  font-size: 5rem;
+  margin-bottom: -2rem;
+  color: #1dc4ff;
+}
+.bottom {
+  font-size: 3rem;
 }
