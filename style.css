@@ -28,12 +28,10 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #1dc4ff;
-  width: 100%;
+  width: 87%;
   height: 3.5rem;
   color: white;
   max-width: 1500px;
-  margin-left: 6%;
-  margin-right: 6%;
 }
 
 #main-top-container a {
@@ -53,16 +51,17 @@ body {
   background-color: #ffffff;
 }
 
+#navbar-logo-div img {
+  width: 12.5rem;
+}
 #navbar {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 87%;
   height: 7rem;
   align-items: center;
   background-color: #ffffff;
   max-width: 1500px;
-  margin-left: 6%;
-  margin-right: 6%;
 }
 
 #navbar-links-div a {
@@ -72,6 +71,13 @@ body {
   font-size: 2.3rem;
 }
 
+#navbar-links-div a:hover {
+  color: #1dc4ff;
+}
+
+#navbar-button-div img {
+  width: 1.9rem;
+}
 #navbar-button-div button {
   font-size: 1.7rem;
   font-weight: 250;
@@ -82,6 +88,11 @@ body {
   width: 13.5em;
 }
 
+#navbar-button-div button:hover {
+  background-color: #1dc4ff;
+  transition: 0.3s;
+}
+
 #navbar-button-div button a {
   color: white;
   text-decoration: none;
@@ -90,23 +101,23 @@ body {
 /********** Section 1 Style **********/
 
 #section1-container {
-  height: 100vh;
+  height: 105rem;
   display: flex;
+  background-color: aquamarine;
   align-items: center;
   background-image: url(images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 100%;
+  background-position: center;
+  width: 100% 100%;
 }
 
 #content-container {
-  width: 100%;
+  width: 87%;
   max-width: 1500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 6%;
-  margin-right: 6%;
 }
 
 #left-text-container h1 {
@@ -124,6 +135,9 @@ body {
   width: 24rem;
 }
 
+#content-right-container img {
+  width: 37.5rem;
+}
 #left-text-container h2 p {
   margin-bottom: 0.6rem;
 }
@@ -139,12 +153,13 @@ body {
 }
 
 /********** Section 2 Style **********/
+
 #section2 {
   position: absolute;
   z-index: 2;
-  top: 105vh;
+  top: 107rem;
   height: 17.5rem;
-  width: calc(100% - 12%);
+  width: 87%;
   max-width: 1500px;
   border-radius: 2.5rem;
   background-color: white;
