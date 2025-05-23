@@ -1,3 +1,29 @@
+@media (max-width: 212.5rem) {
+  /*    3400px   */
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 118.75rem) {
+  /*    1900px   */
+  html {
+    font-size: 55%;
+  }
+  #section1-container {
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 93.75rem) {
+  /*    1500px   */
+  html {
+    font-size: 45%;
+  }
+  #section1-container {
+    background-size: 100% 100%;
+  }
+}
+
 @media (max-width: 80.7rem) {
   /*    1291px   */
   html {
@@ -13,11 +39,101 @@
   html {
     font-size: 35%;
   }
+  #text-div h1 {
+    font-size: 3.5rem;
+  }
+  .quote {
+    line-height: 2.7em;
+    padding: 1em 1em;
+    font-weight: 450;
+  }
+  .grid-box:nth-child(3) {
+    display: none;
+  }
+  #bottom-text-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .quote::before,
+  .quote::after {
+    font-size: 3em;
+  }
+  #commenter-name-div {
+    font-weight: 600;
+  }
+  #bottom-text-div {
+    column-gap: 4rem;
+    padding: 0rem 0rem;
+  }
+  #commenter-image-div img {
+    width: 5rem;
+  }
+  .grid-item {
+    height: 27rem;
+    width: 23rem;
+  }
+  #text-left {
+    font-size: 2.1rem;
+  }
+  #plus-div img {
+    width: 4rem;
+  }
+  #navbar {
+    height: 10rem;
+  }
+  #navbar-links-div a {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+  #navbar-logo-div img {
+    width: 13rem;
+  }
+  #footer-right-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 48rem) {
   /*    768px   */
   html {
-    font-size: 25%;
+    font-size: 30%;
+  }
+
+  #text-div h1 {
+    font-size: 5rem;
+  }
+  .quote {
+    line-height: 2em;
+    padding: 1.5em 1.5em;
+    font-weight: 400;
+  }
+  .quote::before,
+  .quote::after {
+    font-size: 3em;
+  }
+  #commenter-name-div {
+    font-weight: 600;
+  }
+  #bottom-text-div {
+    column-gap: 4rem;
+    padding: 0rem 0rem;
+  }
+  #commenter-image-div img {
+    width: 5rem;
+  }
+  #heading-div h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: center;
+    width: 70%;
+  }
+  #picture-div img {
+    width: 100%;
+  }
+  #picture-div {
+    padding-left: 0rem;
   }
 }
